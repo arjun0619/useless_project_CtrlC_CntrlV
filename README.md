@@ -6,7 +6,7 @@
 
 
 ## Basic Details
-### Team Name: Ctrl c Ctrl v]
+### Team Name: Ctrl c Ctrl v
 
 
 ### Team Members
@@ -41,6 +41,7 @@ Making questionable life decisions? Prepare to get roasted
 ## Technical Details
 ### Technologies/Components Used
 For Software:
+
 Frontend
 
 • React
@@ -73,13 +74,12 @@ Other Libraries / Tools
 • VS Code
 
 ### Implementation
-For Software:
 
 The live deployment for Dr. Brutally Honest is up and running.
+
 https://dr-brutally-honest.vercel.app/
 
 ### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
 
@@ -142,6 +142,7 @@ The backend receives the user's message, processes the conversation, sends the r
 ### Project Demo
 # Video
 https://drive.google.com/file/d/1N0Nab-PY21EDoscCK9B2Lqv2bndGeRFl/view?usp=drive_link
+
 Here is a quick walkthrough showing our AI chatbot working in real time, from user input to instant responses.
 
 ## Team Contributions
