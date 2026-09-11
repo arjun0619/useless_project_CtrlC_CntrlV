@@ -84,14 +84,12 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![alt text](<Screenshot (22).png>)
+This is the landing page for "Dr Brutally Honest,"
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![alt text](<Screenshot (23).png>)
+This is the active chat interface for Dr Brutally Honest, stripped down to an ultra-minimalist, distraction-free conversational layout.
 
 # Diagrams
              ┌─────────────────────┐
