@@ -6,7 +6,7 @@
 
 
 ## Basic Details
-### Team Name: [ctrl c ctrl v]
+### Team Name: Ctrl c Ctrl v]
 
 
 ### Team Members
