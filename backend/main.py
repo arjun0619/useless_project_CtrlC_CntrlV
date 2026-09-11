@@ -158,10 +158,11 @@ def chat(request: ChatRequest):
         chat.append({"role": "user", "content": user_message})
 
         response = client.chat.completions.create(
-            model="openai/gpt-oss-20b",
+            model="openai/gpt-oss-120b",
             messages=chat,
             temperature=1.0,
             max_completion_tokens=1024,
+            reasoning_effort="medium",
         )
         reply = response.choices[0].message.content or ""
         chat.append({"role": "assistant", "content": reply})

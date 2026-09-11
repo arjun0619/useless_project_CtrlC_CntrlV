@@ -1,7 +1,10 @@
 import { useState } from "react";
 import "./App.css";
+import LandingPage from "./landingpage";
 
 function App() {
+  const [started, setStarted] = useState(false);
+
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -30,16 +33,19 @@ function App() {
     setLoading(true);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/chat", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          session_id: sessionId,
-          message: userMessage,
-        }),
-      });
+      const response = await fetch(
+        "http://127.0.0.1:8000/chat",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            session_id: sessionId,
+            message: userMessage,
+          }),
+        }
+      );
 
       const data = await response.json();
 
@@ -75,11 +81,21 @@ function App() {
     setLoading(false);
   };
 
+  // Show landing page before starting the therapist
+  if (!started) {
+    return (
+      <LandingPage
+        onStart={() => setStarted(true)}
+      />
+    );
+  }
+
+  // Show therapist after clicking START
   return (
     <div className="app">
 
       <header className="header">
-        <h1>AI Therapist</h1>
+        <h1>Dr Brutally Honest</h1>
       </header>
 
       <main className="chat-area">
@@ -88,9 +104,9 @@ function App() {
 
           {messages.length === 0 && (
             <div className="welcome">
-              <h2>Hey 👋</h2>
+              <h2>Welcome</h2>
               <p>
-                What's going on?
+                What problem are we pretending we can solve today?
               </p>
             </div>
           )}
@@ -106,7 +122,7 @@ function App() {
 
           {loading && (
             <div className="message ai">
-              Thinking...
+              .....
             </div>
           )}
 
@@ -119,7 +135,7 @@ function App() {
 
           <input
             type="text"
-            placeholder="Tell me what's on your mind..."
+            placeholder=""
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
