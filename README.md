@@ -74,11 +74,9 @@ Other Libraries / Tools
 
 ### Implementation
 For Software:
-# Installation
-[commands]
 
-# Run
-[commands]
+The live deployment for Dr. Brutally Honest is up and running.
+https://dr-brutally-honest.vercel.app/
 
 ### Project Documentation
 For Software:
@@ -88,8 +86,15 @@ For Software:
 ![alt text](<Screenshot (22).png>)
 This is the landing page for "Dr Brutally Honest,"
 
+
 ![alt text](<Screenshot (23).png>)
 This is the active chat interface for Dr Brutally Honest, stripped down to an ultra-minimalist, distraction-free conversational layout.
+
+
+![alt text](<Screenshot (25).png>)
+This shows the chat in action, proving the design works smoothly and the bot stays completely in character.
+
+
 
 # Diagrams
              ┌─────────────────────┐
@@ -136,16 +141,30 @@ The backend receives the user's message, processes the conversation, sends the r
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
+https://drive.google.com/file/d/1N0Nab-PY21EDoscCK9B2Lqv2bndGeRFl/view?usp=drive_link
+Here is a quick walkthrough showing our AI chatbot working in real time, from user input to instant responses.
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+Team Contributions
+
+Arjun P
+
+• Full project development and implementation
+• Frontend development using React
+• Backend development using Python and FastAPI
+• Groq API integration and AI implementation
+• Frontend and backend integration
+• Deployment and project setup
+• Overall project integration and technical implementation
+
+Adithya K
+
+• UI design and visual layout
+• User interface design and styling
+• Project documentation
+• README preparation and documentation structure
+• Supporting the presentation and overall visual identity of the project
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
