@@ -10,24 +10,24 @@
 
 
 ### Team Members
-- Team Lead: [Arjun P] - [College of Engineering Perumon]
-- Member 2: [Adithya K] - [College of Engineering Perumon
-]
+- Team Lead: Arjun P - College of Engineering Perumon
+- Member 2: Adithya K - College of Engineering Perumon
+
 
 ### Project Description
-[DR BRUTALLY HONEST is an AI therapist that listens to your problems, gives blunt and funny advice, delivers a reality check when necessary, and occasionally roasts you when you absolutely deserve it.
+DR BRUTALLY HONEST is an AI therapist that listens to your problems, gives blunt and funny advice, delivers a reality check when necessary, and occasionally roasts you when you absolutely deserve it.
 
 Basically:
-Therapy + Reality Check + Getting Roasted by Your AI Therapist.]
+Therapy + Reality Check + Getting Roasted by Your AI Therapist.
 
 ### The Problem (that doesn't exist)
-[People want advice, not a 47 minute TED Talk about their childhood.
+People want advice, not a 47 minute TED Talk about their childhood.
 
 Traditional therapy can sometimes feel too formal, serious, or just... lame. When someone has a simple problem, they may not want a lengthy, overly structured conversation.
-You don't always need a therapist. Sometimes you need a brutally honest bro.]
+You don't always need a therapist. Sometimes you need a brutally honest bro.
 
 ### The Solution (that nobody asked for)
-[Enter Dr. Brutally Honest.
+Enter Dr. Brutally Honest.
 
 The AI therapist nobody asked for but everyone secretly needs.
 
@@ -36,7 +36,7 @@ Need advice? Got you.
 
 Need a reality check? Absolutely.
 
-Making questionable life decisions? Prepare to get roasted]
+Making questionable life decisions? Prepare to get roasted
 
 ## Technical Details
 ### Technologies/Components Used
