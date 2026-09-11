@@ -2,39 +2,75 @@
 
 
 
-# [Project Name] 🎯
+# DR BRUTALLY HONEST 🗿
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [ctrl c ctrl v]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [Arjun P] - [College of Engineering Perumon]
+- Member 2: [Adithya K] - [College of Engineering Perumon
+]
 
 ### Project Description
-[2-3 lines about what your project does]
+[DR BRUTALLY HONEST is an AI therapist that listens to your problems, gives blunt and funny advice, delivers a reality check when necessary, and occasionally roasts you when you absolutely deserve it.
+
+Basically:
+Therapy + Reality Check + Getting Roasted by Your AI Therapist.]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[People want advice, not a 47 minute TED Talk about their childhood.
+
+Traditional therapy can sometimes feel too formal, serious, or just... lame. When someone has a simple problem, they may not want a lengthy, overly structured conversation.
+You don't always need a therapist. Sometimes you need a brutally honest bro.]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[Enter Dr. Brutally Honest.
+
+The AI therapist nobody asked for but everyone secretly needs.
+
+He listens to the user's problems, understands the ongoing conversation, and responds with casual, direct, and humorous advice.
+Need advice? Got you.
+
+Need a reality check? Absolutely.
+
+Making questionable life decisions? Prepare to get roasted]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+Frontend
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+• React
+• JavaScript
+• CSS
+
+Backend
+
+• Python
+• FastAPI
+
+AI
+
+• Groq API
+• AI powered conversational system
+• Large Language Model based response generation
+
+Hosting / Deployment
+
+• Vercel for frontend hosting
+• Render for backend hosting
+
+Other Libraries / Tools
+
+• Groq Python SDK
+• python-dotenv
+• Uvicorn
+• Git
+• GitHub
+• VS Code
 
 ### Implementation
 For Software:
@@ -58,27 +94,47 @@ For Software:
 *Add caption explaining what this shows*
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+             ┌─────────────────────┐
+             │        User         │
+             └──────────┬──────────┘
+                        │
+                        ▼
+             ┌─────────────────────┐
+             │   React Frontend    │
+             │       Vercel        │
+             └──────────┬──────────┘
+                        │
+                    API Request
+                        │
+                        ▼
+             ┌─────────────────────┐
+             │   FastAPI Backend   │
+             │       Python        │
+             │       Render        │
+             └──────────┬──────────┘
+                        │
+                        ▼
+             ┌─────────────────────┐
+             │      Groq API       │
+             │    AI Processing    │
+             └──────────┬──────────┘
+                        │
+                    AI Response
+                        │
+                        ▼
+             ┌─────────────────────┐
+             │   React Frontend    │
+             └──────────┬──────────┘
+                        │
+                        ▼
+             ┌─────────────────────┐
+             │        User         │
+             └─────────────────────┘
 
-For Hardware:
+The project follows a frontend backend architecture where the React frontend communicates with the Python FastAPI backend.
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+The backend receives the user's message, processes the conversation, sends the required information to the Groq API, and returns the AI generated response to the frontend.
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
