@@ -15,7 +15,7 @@
 
 
 ### Project Description
-DR BRUTALLY HONEST is an AI therapist that listens to your problems, gives blunt and funny advice, delivers a reality check when necessary, and occasionally roasts you when you absolutely deserve it.
+DR BRUTALLY HONEST is an AI therapist that listens to your problems, gives blunt and funny advice, delivers a reality check  and roasts you, because you deserves it.
 
 Basically:
 Therapy + Reality Check + Getting Roasted by Your AI Therapist.
