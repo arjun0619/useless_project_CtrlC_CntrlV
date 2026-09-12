@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./App.css";
 import LandingPage from "./landingpage";
 
@@ -8,8 +8,13 @@ function App() {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+  const messagesEndRef = useRef(null);
 
   const [sessionId] = useState(() => crypto.randomUUID());
+
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
+  }, [messages, loading]);
 
   const sendMessage = async (e) => {
     e.preventDefault();
@@ -125,6 +130,8 @@ function App() {
               .....
             </div>
           )}
+
+          <div ref={messagesEndRef} />
 
         </div>
 
