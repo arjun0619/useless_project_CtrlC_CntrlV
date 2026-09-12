@@ -6,41 +6,48 @@
 
 
 ## Basic Details
-### Team Name: [ctrl c ctrl v]
+### Team Name: Ctrl c Ctrl v
 
 
 ### Team Members
 - Team Lead: Arjun P - College of Engineering Perumon
 - Member 2: Adithya K - College of Engineering Perumon
 
+## Project Description
 
-### Project Description
-DR BRUTALLY HONEST is an AI therapist that listens to your problems, gives blunt and funny advice, delivers a reality check when necessary, and occasionally roasts you when you absolutely deserve it.
+**DR BRUTALLY HONEST** is an AI therapist that listens to your problems, gives blunt and funny advice, delivers a reality check, and roasts you so hard you might actually fix your life.
 
-Basically:
-Therapy + Reality Check + Getting Roasted by Your AI Therapist.
+Basically: **Therapy + Reality Check + Getting Roasted by Your AI Therapist.**
 
-### The Problem (that doesn't exist)
-People want advice, not a 47 minute TED Talk about their childhood.
+## The Problem (that doesn't exist)
 
-Traditional therapy can sometimes feel too formal, serious, or just... lame. When someone has a simple problem, they may not want a lengthy, overly structured conversation.
-You don't always need a therapist. Sometimes you need a brutally honest bro.
+People want advice, not a **47 minute TED Talk about their childhood.**
 
-### The Solution (that nobody asked for)
-Enter Dr. Brutally Honest.
+Traditional therapy can sometimes feel too formal, serious, or just... lame. When someone has a simple problem, they may not want a lengthy, overly structured conversation. You don't always need a therapist. Sometimes you need a brutally honest bro.
+
+## The Solution (that nobody asked for)
+
+Enter **Dr. Brutally Honest.**
 
 The AI therapist nobody asked for but everyone secretly needs.
 
-He listens to the user's problems, understands the ongoing conversation, and responds with casual, direct, and humorous advice.
-Need advice? Got you.
+He listens to the user's problems, understands the ongoing conversation, and responds with casual, direct, and humorous advice. Need advice? Got you.
 
 Need a reality check? Absolutely.
 
-Making questionable life decisions? Prepare to get roasted
+Making questionable life decisions? **Prepare to get roasted.**
+
+And not just a little roast. **Dr. Brutally Honest will roast you so much that you might forget you came here for advice in the first place.**
+
+Because sometimes you don't need someone to tell you that you're right.
+
+**You need someone to tell you that you're being an idiot.**
+
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
+
 Frontend
 
 • React
@@ -73,13 +80,12 @@ Other Libraries / Tools
 • VS Code
 
 ### Implementation
-For Software:
 
 The live deployment for Dr. Brutally Honest is up and running.
+
 https://dr-brutally-honest.vercel.app/
 
 ### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
 
@@ -142,6 +148,7 @@ The backend receives the user's message, processes the conversation, sends the r
 ### Project Demo
 # Video
 https://drive.google.com/file/d/1N0Nab-PY21EDoscCK9B2Lqv2bndGeRFl/view?usp=drive_link
+
 Here is a quick walkthrough showing our AI chatbot working in real time, from user input to instant responses.
 
 ## Team Contributions
